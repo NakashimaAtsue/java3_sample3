@@ -3,22 +3,27 @@ package test.animal;
 import animal.*;
 
 	public  class Cheetar implements Animal{
+		private String name = "�`�[�^�[";
+		private int speed = 110;
+
+
 		public String getName(){
-	      return "チーター";
+	      return name;
 	 	}
 
 	 	public int getSpeed(){
-	 		return 110;
+	 		return speed;
 	 	}
 
 	 	public String race(Animal a){
-	 		if(110 = a.getSpeed()) {
+	 		if(speed == a.getSpeed()) {
 	 			return "draw";
 
-	 		}else if(110 < a.getSpeed()){
-	 			return "チーター lose";
+	 		}else if(speed < a.getSpeed()){
+	 			return name + "lose";
 
 	 		}else{
-	 			return "チーター　win";
+	 			return name + "win";
 	 		}
+}
 }
