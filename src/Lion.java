@@ -1,10 +1,10 @@
-
 package animal;
 
 public class Lion implements Animal{
 	
         private String name = "ƒ‰ƒCƒIƒ“";
 	private int speed = 60;
+
 	public String getName(){
 
 		return name;
